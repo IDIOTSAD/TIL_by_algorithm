@@ -22,6 +22,7 @@
 * 따라서 대각이동을 하는 n번과, (n ~ 0) 까지의 반복이 진행되기 때문에, 기존의 n^2의 알고리즘이 아닌, n log n이라고 생각이 들었다.
 
 * 검정선은 검사하는 프로세스고, 빨간선은 이동하는 선이다.
+
 ![image](https://user-images.githubusercontent.com/55529455/183272210-658e1fd9-5e4e-47ab-88aa-fb2d478c5daa.png)
 
 ---
