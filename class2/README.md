@@ -41,6 +41,12 @@
 * O(N)으로 풀면 안된다는 것을 금방 알아 챌 수 있었다.
 * 따라서 list 대신 dict를 이용하여 문제를 해결하였다.
 
+## 2751 문제 - https://www.acmicpc.net/problem/2751
+* 단순히 input() 함수를 이용하여 값을 입력 받았을 때 시간 오류가 발생함.
+* 따라서 조금이라도 더 단축하기 위해서 sys.stdin.readline()을 사용해야함.
+* readline() 함수를 사용하게 되면 \n도 딸려오기 때문에 int로 형변환이 필요함 (int 사용 시)
+* split 함수를 이용하여 여러 변수를 받을 수 있음. 예시) list(map(int, sys.stdin.readline().split()))
+
 ---
 ### 문제 출처
 * https://solved.ac/class/2e
