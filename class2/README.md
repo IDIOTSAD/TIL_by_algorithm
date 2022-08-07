@@ -25,6 +25,12 @@
 
 ![image](https://user-images.githubusercontent.com/55529455/183272210-658e1fd9-5e4e-47ab-88aa-fb2d478c5daa.png)
 
+## 1181 문제 - https://www.acmicpc.net/problem/1181
+* 해당 문제를 풀기 위해서 sort에 대해서 알 필요가 있었다.
+* sort 함수의 경우, 문자열을 sort 할 때는, 단어의 크기 (알파벳 순서)로 정렬한다는 점을 알고 있어야 한다.
+* 따라서, lambda 함수를 주어 길이에 맞추어 정렬하는 내용을 추가 해주어야 한다. (lambda x: len(x))
+* 순서 : 알파벳 순서로 정렬 한 후, 길이 수에 맞추어 정렬하면 해결 됨.
+
 ---
 ### 문제 출처
 * https://solved.ac/class/2e
